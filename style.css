@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background: rgb(169, 157, 87);
+}
+.colorBar{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+#color{
+    width: 350px;
+    margin-right: 15px;
+}
+.btn{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.lineWidth{
+    padding: 10px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.lineWidth span{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.lineW{
+    width: 350px;
+    margin-right: 20px;
+}
+.canvas{
+    background: white;
+    padding: 0;
+    margin: auto;
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    position: absolute;
+    display: block;
+    z-index: -10;
+
+}
+.status{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 10px;
+}

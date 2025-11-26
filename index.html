@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bar">
+        <div class="colorBar">
+            <input type="color" name="color" id="color">
+            <input type="button" value="Fill" id="fill" class="fill btn" onclick="fillAll()">
+            <input type="button" value="Clear" id="clear" class="clear btn" onclick="clearAll()">
+        </div>
+        <div class="lineWidth">
+            <input type="range" class="lineW" id="lineW" value="10" min="1" max="100" step="1">
+            <span class="lineWvalue" id="lineWvalue">99</span>
+        </div>
+    </div>
+    <canvas class="canvas" id="canvas"></canvas>
+    <div class="status">
+        made in Uman
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
